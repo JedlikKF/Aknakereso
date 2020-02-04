@@ -7,13 +7,16 @@ using System.Threading.Tasks;
 namespace Aknakereso
 {
     class Program
-    {
+    {   char[,] pály=new char[10,10];
         static void Main(string[] args)
         {
-
-            Console.WriteLine("GIT!");
+            
+            Feltöltés();
+            
             Console.ReadKey();
 
         }
+        
+
     }
 }
